@@ -1,7 +1,7 @@
 import React, { FC, PropsWithChildren } from "react";
 
 type Props = {
-  color: 'purple' | 'green';
+  color: 'purple' | 'red';
 }
 
 const Button: FC<PropsWithChildren<Props>> = ({ color, children }) => {
