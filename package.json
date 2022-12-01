@@ -49,19 +49,34 @@
   ],
   "devDependencies": {
     "@size-limit/preset-small-lib": "^8.1.0",
+    "@types/chroma-js": "^2.1.4",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.9",
+    "autoprefixer": "^10.4.13",
+    "cssnano": "^5.1.14",
     "husky": "^8.0.2",
+    "postcss": "^8.4.19",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-scss": "^4.0.0",
+    "semantic-release": "^19.0.5",
     "size-limit": "^8.1.0",
     "tsdx": "^0.14.1",
     "tslib": "^2.4.1",
-    "typescript": "^4.9.3",
-    "semantic-release": "^19.0.5"
+    "typescript": "^4.9.3"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/igor-smolkov/nonum-test-lib.git"
+  },
+  "dependencies": {
+    "chroma-js": "^2.4.2",
+    "classnames": "^2.3.2",
+    "html2canvas": "^1.4.1",
+    "p5": "^1.5.0",
+    "react-error-boundary": "^3.1.4",
+    "react-p5": "^1.3.33",
+    "sass": "^1.56.1"
   }
 }

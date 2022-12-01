@@ -1,13 +1,14 @@
 import 'react-app-polyfill/ie11';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import { Thing, Button } from '../.';
+import { Disc, DiscContainer, Thing } from '../.';
 
 const App = () => {
   return (
     <div>
-      <Thing />
-      <Button color='green'>asdsadsadad</Button>
+      <Thing text="3432423432432d" />
+      <Disc colors={[1,1,1,0,3,1,1,1]} isAnimate />
+      <DiscContainer id="DE7cveszeBsgQQJdUcKnzvmNihdkhfyhDXJ49VzmwN9p" />
     </div>
   );
 };
