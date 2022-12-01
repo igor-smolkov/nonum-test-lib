@@ -11,3 +11,4 @@ export const Thing: React.FC<P> = ({text}) => {
 
 export * from './Disc/index';
 export * from './DiscContainer/index';
+export * from './shared/utils/sdk';
